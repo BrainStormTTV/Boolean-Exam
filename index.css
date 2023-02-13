@@ -1,0 +1,83 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+#contenitore{ /* Background square*/
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-right: 20%;
+    margin-left: 20%;
+    border-radius: 20px;
+    padding-bottom: 80px;
+}
+
+#menu-prenotazione, #titolo {
+    text-align: center;
+}
+
+/*Titolo*/ 
+#titolo > h1{ 
+    color: lime;
+}
+
+#titolo > img{
+    margin-top: 10%;
+    width:  20%;
+    height: auto;
+}
+
+/*Menu Pulsanti*/
+
+#menu-prenotazione{
+    background-color: lime;
+    position: relative;
+    background-color: lime(50,50,51,.6);
+    padding: 15px 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+}
+
+.lista{
+    margin-left: 10%;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.monopattino{
+    font-size:30px ;
+    font-weight: 400;
+}
+
+.location, .batteria{
+    margin-bottom: 6px;
+    font-size: 18px;
+    display: block;
+}
+   
+#yellow{ /* BARRA GIALLA*/
+    background-color: rgb(247, 176, 83);
+    border-color: rgb(247, 176, 83); 
+    border-radius: 8px ;
+    margin-bottom: 30px;
+    margin-right: 70%;
+    height: 30px;
+}   
+#green{ /* BARRA VERDE*/
+    background-color:rgb(5, 154, 5);
+    border-color: rgb(5, 154, 5); 
+    border-radius: 8px ;
+    margin-bottom: 30px; 
+    margin-right: 50%;
+    height: 30px;
+}   
+
+#red{ /* BARRA ROSSA*/
+    background-color:rgb(194, 5, 5);
+    border-color: rgb(194, 5, 5); 
+    border-radius: 8px ;
+    margin-right: 85%;
+    height: 30px;
+}   
+
+
